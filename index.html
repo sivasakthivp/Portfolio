@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sivasakthi | AI Engineer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Merriweather:wght@300;400;700&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-dot"></span>Sivasakthi VP
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact" class="nav-cta-btn">Let's Talk</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-image"></div>
+    <canvas id="neural-canvas"></canvas>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-eyebrow">
+        <span class="live-dot"></span>
+        <code>Available for opportunities</code>
+      </div>
+      <h1 class="hero-name">Sivasakthi VP</h1>
+      <div class="hero-role-wrap">
+        <span class="role-prefix">I build </span>
+        <span class="typed-text" id="typed-text"></span><span class="cursor">_</span>
+      </div>
+      <p class="hero-bio">
+        AI Engineer crafting intelligent systems — from real-time voice AI
+        and deep learning pipelines to multilingual NLP applications.
+        Turning research into production-grade solutions.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn-hero-primary">
+          <i class="fas fa-arrow-right"></i> View My Work
+        </a>
+        <a href="#contact" class="btn-hero-ghost">
+          <i class="fas fa-envelope"></i> Contact Me
+        </a>
+      </div>
+      <div class="hero-stats">
+        <div class="hs-item"><span class="hs-num">10+</span><span class="hs-lbl">Projects</span></div>
+        <div class="hs-divider"></div>
+        <div class="hs-item"><span class="hs-num">5+</span><span class="hs-lbl">AI Frameworks</span></div>
+        <div class="hs-divider"></div>
+        <div class="hs-item"><span class="hs-num">6+</span><span class="hs-lbl">Months Deep Learning</span></div>
+      </div>
+    </div>
+    <div class="hero-socials-bar">
+      <a href="https://github.com/sivasakthivp" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+      <a href="https://public.tableau.com/app/profile/sivasakthi.vp" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      <a href="mailto:mrsiva1952005@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+    </div>
+    <div class="hero-scroll">
+      <span class="scroll-mouse"><span class="scroll-wheel"></span></span>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section sec-about" id="about">
+    <div class="container"> 
+      <div class="sec-label">01 / About</div>
+      <div class="about-layout">
+        <div class="about-visual reveal">
+          <div class="av-frame">
+            <div class="av-circle">
+              <span class="av-initials">VP</span>
+              <div class="av-ring av-r1"></div>
+              <div class="av-ring av-r2"></div>
+              <div class="av-ring av-r3"></div>
+            </div>
+            <div class="av-tag av-t1"><i class="fas fa-brain"></i> NLP Specialist</div>
+            <div class="av-tag av-t2"><i class="fas fa-microchip"></i> AI Engineer</div>
+            <div class="av-tag av-t3"><i class="fas fa-microphone"></i> Voice AI</div>
+          </div>
+        </div>
+        <div class="about-body">
+          <h2 class="sec-title reveal">Who I Am</h2>
+          <div class="about-chips reveal">
+            <span><i class="fas fa-map-marker-alt"></i> Tamil Nadu, India</span>
+            <span><i class="fas fa-graduation-cap"></i> B.E. CS&amp;E — 2026</span>
+            <span class="chip-live"><i class="fas fa-circle"></i> Open to Work</span>
+          </div>
+          <p class="reveal">
+            I'm <strong>Sivasakthi</strong>, an AI Engineer who specialises in building
+            end-to-end intelligent systems. My work spans <strong>Natural Language Processing</strong>,
+            <strong>Deep Learning</strong>, <strong>Voice AI</strong>, and full-stack application
+            development — bridging research-grade AI with practical, production-ready solutions.
+          </p>
+          <p class="reveal">
+            From building fully offline voice assistants with real-time VAD and Whisper STT,
+            to designing multilingual NLP pipelines and educational AI platforms — I transform
+            complex AI concepts into clean, impactful products.
+          </p>
+          <div class="about-stats-row reveal">
+            <div class="as-item"><span class="as-num">10+</span><span class="as-lbl">Projects Built</span></div>
+            <div class="as-item"><span class="as-num">5+</span><span class="as-lbl">AI Frameworks</span></div>
+            <div class="as-item"><span class="as-num">2+</span><span class="as-lbl">Years Practicing</span></div>
+            <div class="as-item"><span class="as-num">3</span><span class="as-lbl">Core Domains</span></div>
+          </div>
+          <div class="about-btns reveal">
+            <a href="#contact" class="btn-primary"><i class="fas fa-download"></i> Download CV</a>
+            <a href="#projects" class="btn-text">See Projects <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section sec-skills" id="skills">
+    <div class="skills-bg-image"></div>
+    <div class="skills-overlay"></div>
+    <div class="container rel-z2">
+      <div class="sec-label sec-label-w">02 / Skills</div>
+      <h2 class="sec-title sec-title-w reveal">Technical Arsenal</h2>
+      <div class="skills-grid">
+
+        <div class="skill-card reveal">
+          <div class="sc-head">
+            <div class="sc-ico"><i class="fas fa-brain"></i></div>
+            <h3>AI &amp; Machine Learning</h3>
+          </div>
+          <div class="sc-pills">
+            <span>Python</span><span>Machine Learning</span><span>TensorFlow</span><span>PyTorch</span>
+            <span>scikit-learn</span><span>OpenAI API</span><span>LangChain</span>
+            <span>Hugging Face</span><span>faster-whisper</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="sc-head">
+            <div class="sc-ico"><i class="fas fa-microphone-alt"></i></div>
+            <h3>NLP & Voice AI</h3>
+          </div>
+          <div class="sc-pills">
+            <span>Speech-to-Text</span><span>Text-to-Speech</span><span>VAD</span>
+            <span>Piper TTS</span><span>NLP Pipelines</span><span>Prompt Engineering</span>
+            <span>Multilingual NLP</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="sc-head">
+            <div class="sc-ico"><i class="fas fa-code"></i></div>
+            <h3>Web & Full Stack</h3>
+          </div>
+          <div class="sc-pills">
+            <span>HTML / CSS / JS</span><span>Streamlit</span><span>Bootstrap</span>
+            <span>PHP</span><span>React (learning)</span><span>REST APIs</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="sc-head">
+            <div class="sc-ico"><i class="fas fa-database"></i></div>
+            <h3>Big Data &amp; Databases</h3>
+          </div>
+          <div class="sc-pills">
+            <span>SQL</span><span>Apache Spark</span><span>PySpark</span><span>MongoDB</span>
+            <span>Pandas</span><span>NumPy</span><span>Tableau</span><span>Matplotlib</span><span>R</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="sc-head">
+            <div class="sc-ico"><i class="fas fa-tools"></i></div>
+            <h3>Tools & Platforms</h3>
+          </div>
+          <div class="sc-pills">
+            <span>Git / GitHub</span><span>VS Code</span><span>Jupyter</span>
+            <span>Linux</span><span>Apache Airflow</span><span>Windows</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section sec-experience" id="experience">
+    <div class="container">
+      <div class="sec-label">03 / Experience</div>
+      <h2 class="sec-title reveal">My Journey</h2>
+      <div class="timeline">
+
+        <div class="tl-item reveal">
+          <div class="tl-side">
+            <div class="tl-yr">2025<br><span>Present</span></div>
+          </div>
+          <div class="tl-dot-wrap"><div class="tl-dot"></div><div class="tl-line"></div></div>
+          <div class="tl-card">
+            <span class="tl-badge">Current</span>
+            <h3>AI Engineer &middot; Self-Directed</h3>
+            <p class="tl-org">Independent Projects</p>
+            <ul>
+              <li>Built a fully offline real-time AI voice assistant (Jarvis) with VAD, faster-Whisper STT, LLM integration, and Piper TTS.</li>
+              <li>Developed an English Grammar Corrector with Tamil voice explanation powered by OpenAI API + Streamlit.</li>
+              <li>Designed distributed text-mining and word-frequency analytics pipelines using Apache Spark (PySpark) and NLTK.</li>
+              <li>Trained and optimized supervised Machine Learning models (Random Forest) to predict customer churn, deploying them via Streamlit.</li>
+              <li>Optimized schema querying and relational operations using SQL for analytics dashboards.</li>
+            </ul>
+            <div class="tl-tags"><span>Python</span><span>Apache Spark</span><span>Machine Learning</span><span>SQL</span><span>LLM</span><span>Voice AI</span></div>
+          </div>
+        </div>
+
+        <div class="tl-item reveal">
+          <div class="tl-side">
+            <div class="tl-yr">2024</div>
+          </div>
+          <div class="tl-dot-wrap"><div class="tl-dot"></div><div class="tl-line"></div></div>
+          <div class="tl-card">
+            <h3>Deep Learning &amp; Data Science Practitioner</h3>
+            <p class="tl-org">Academic &amp; Personal Research</p>
+            <ul>
+              <li>Implemented ANN and CNN models for classification and image recognition using TensorFlow.</li>
+              <li>Analysed real-world datasets (Churn Modelling, MNIST) to evaluate predictive models.</li>
+              <li>Created interactive Tableau dashboards for business intelligence and insights.</li>
+            </ul>
+            <div class="tl-tags"><span>TensorFlow</span><span>CNN</span><span>ANN</span><span>Tableau</span></div>
+          </div>
+        </div>
+
+        <div class="tl-item reveal">
+          <div class="tl-side">
+            <div class="tl-yr">2023</div>
+          </div>
+          <div class="tl-dot-wrap"><div class="tl-dot"></div></div>
+          <div class="tl-card">
+            <h3>Full Stack Web Developer &middot; Learning</h3>
+            <p class="tl-org">Coursework &amp; Projects</p>
+            <ul>
+              <li>Built web applications using HTML, CSS, JavaScript, PHP, and Bootstrap.</li>
+              <li>Practised backend development with SQL and MongoDB databases.</li>
+              <li>Explored Python frameworks including Streamlit and Apache Airflow pipelines.</li>
+            </ul>
+            <div class="tl-tags"><span>HTML/CSS/JS</span><span>PHP</span><span>SQL</span><span>MongoDB</span></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section sec-projects" id="projects">
+    <div class="projects-bg-image"></div>
+    <div class="projects-overlay"></div>
+    <div class="container rel-z2">
+      <div class="sec-label sec-label-w">04 / Projects</div>
+      <h2 class="sec-title sec-title-w reveal">What I've Built</h2>
+      <div class="projects-grid">
+
+        <div class="proj-card proj-featured reveal">
+          <div class="proj-glow"></div>
+          <div class="proj-top">
+            <div class="proj-ico"><i class="fas fa-microphone-alt"></i></div>
+            <div class="proj-links">
+              <span class="proj-badge">Featured</span>
+              <a href="https://github.com/sivasakthivp" target="_blank" rel="noopener" class="proj-gh"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3>Jarvis AI Voice Assistant</h3>
+          <p>Fully offline, real-time AI voice assistant with Voice Activity Detection, faster-Whisper STT, LLM-powered contextual responses, and Piper neural TTS. Zero internet dependency.</p>
+          <div class="proj-tech"><span>Python</span><span>faster-Whisper</span><span>Piper TTS</span><span>VAD</span><span>LLM</span></div>
+        </div>
+
+        <div class="proj-card proj-featured reveal">
+          <div class="proj-glow"></div>
+          <div class="proj-top">
+            <div class="proj-ico"><i class="fas fa-language"></i></div>
+            <div class="proj-links">
+              <span class="proj-badge">Featured</span>
+              <a href="https://github.com/sivasakthivp" target="_blank" rel="noopener" class="proj-gh"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3>English–Tamil Grammar Corrector</h3>
+          <p>Streamlit app that listens to spoken or typed English, corrects grammar via OpenAI, then explains in Tamil with audio playback — bridging multilingual NLP and voice AI.</p>
+          <div class="proj-tech"><span>Python</span><span>OpenAI API</span><span>Streamlit</span><span>TTS</span><span>STT</span></div>
+        </div>
+
+        <div class="proj-card reveal">
+          <div class="proj-top">
+            <div class="proj-ico"><i class="fas fa-graduation-cap"></i></div>
+            <a href="https://github.com/sivasakthivp" target="_blank" rel="noopener" class="proj-gh"><i class="fab fa-github"></i></a>
+          </div>
+          <h3>Education AI Platform</h3>
+          <p>Final-year full-stack platform powered by NLP and LLM that generates animated educational explanations from student questions, with secure SQL backend.</p>
+          <div class="proj-tech"><span>Full Stack</span><span>NLP</span><span>LLM</span><span>SQL</span></div>
+        </div>
+
+        <div class="proj-card reveal">
+          <div class="proj-top">
+            <div class="proj-ico"><i class="fas fa-network-wired"></i></div>
+            <a href="https://github.com/sivasakthivp" target="_blank" rel="noopener" class="proj-gh"><i class="fab fa-github"></i></a>
+          </div>
+          <h3>ANN & CNN Deep Learning Models</h3>
+          <p>Neural Networks for customer churn prediction and CNNs for image classification, built with TensorFlow on real-world datasets including Churn Modelling and MNIST.</p>
+          <div class="proj-tech"><span>TensorFlow</span><span>CNN</span><span>ANN</span><span>Python</span></div>
+        </div>
+
+        <div class="proj-card reveal">
+          <div class="proj-top">
+            <div class="proj-ico"><i class="fas fa-database"></i></div>
+            <a href="https://github.com/sivasakthivp" target="_blank" rel="noopener" class="proj-gh"><i class="fab fa-github"></i></a>
+          </div>
+          <h3>YouTube Comments Big Data Pipeline</h3>
+          <p>Distributed text-processing pipeline built using Apache Spark (PySpark) to perform word-frequency analysis and MapReduce cleaning on large comment datasets. Integrates NLTK stopword filtering.</p>
+          <div class="proj-tech"><span>Apache Spark</span><span>PySpark</span><span>MapReduce</span><span>NLP</span><span>NLTK</span><span>Python</span></div>
+        </div>
+
+        <div class="proj-card reveal">
+          <div class="proj-top">
+            <div class="proj-ico"><i class="fas fa-brain"></i></div>
+            <a href="https://github.com/sivasakthivp" target="_blank" rel="noopener" class="proj-gh"><i class="fab fa-github"></i></a>
+          </div>
+          <h3>Customer Churn ML Predictor</h3>
+          <p>End-to-end Machine Learning pipeline utilizing RandomForestClassifier (scikit-learn) to predict subscriber churn, deployed as an interactive data science dashboard via Streamlit.</p>
+          <div class="proj-tech"><span>Machine Learning</span><span>scikit-learn</span><span>Random Forest</span><span>Streamlit</span><span>Pandas</span></div>
+        </div>
+
+        <div class="proj-card reveal">
+          <div class="proj-top">
+            <div class="proj-ico"><i class="fas fa-chart-bar"></i></div>
+            <a href="https://github.com/sivasakthivp" target="_blank" rel="noopener" class="proj-gh"><i class="fab fa-github"></i></a>
+          </div>
+          <h3>Data Analytics Dashboards</h3>
+          <p>Interactive business intelligence dashboards in Tableau revealing trends in customer behaviour, sales, and operational performance for data-driven decision-making.</p>
+          <div class="proj-tech"><span>Tableau</span><span>SQL</span><span>Python</span><span>Pandas</span></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="section sec-education" id="education">
+    <div class="container">
+      <div class="sec-label">05 / Education</div>
+      <h2 class="sec-title reveal">Academic Background</h2>
+      <div class="edu-grid">
+        <div class="edu-card reveal">
+          <div class="edu-num">01</div>
+          <div class="edu-ico"><i class="fas fa-university"></i></div>
+          <span class="edu-yr">2022 – 2026</span>
+          <h3>Bachelor of Engineering</h3>
+          <p class="edu-sub">Computer Science &amp; Engineering</p>
+          <p>Focused on AI, Deep Learning, Data Structures, Databases, and Full Stack Development. Final year project: Education-Based AI Platform.</p>
+        </div>
+        <div class="edu-card reveal">
+          <div class="edu-num">02</div>
+          <div class="edu-ico"><i class="fas fa-certificate"></i></div>
+          <span class="edu-yr">2024</span>
+          <h3>Deep Learning Specialisation</h3>
+          <p class="edu-sub">Self-Study / Online Courses</p>
+          <p>Neural Networks (ANN, CNN, RNN), TensorFlow, and practical ML implementation — regression, classification, and image recognition.</p>
+        </div>
+        <div class="edu-card reveal">
+          <div class="edu-num">03</div>
+          <div class="edu-ico"><i class="fas fa-chart-pie"></i></div>
+          <span class="edu-yr">2023</span>
+          <h3>Data Science &amp; Analytics</h3>
+          <p class="edu-sub">Self-Study / Coursework</p>
+          <p>Data analysis with Python (Pandas, NumPy, Matplotlib), SQL, MongoDB, R programming, and Tableau for business intelligence dashboards.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section sec-contact" id="contact">
+    <div class="contact-bg-image"></div>
+    <div class="contact-overlay"></div>
+    <div class="container rel-z2">
+      <div class="sec-label sec-label-w">06 / Contact</div>
+      <h2 class="sec-title sec-title-w reveal">Let's Connect</h2>
+      <p class="contact-sub reveal">Open to AI engineering roles, research collaborations, freelance projects, and interesting conversations about intelligent systems.</p>
+      <div class="contact-layout">
+        <div class="contact-left reveal">
+          <div class="cl-list">
+            <a href="mailto:mrsiva1952005@gmail.com" class="cl-item">
+              <div class="cl-ico"><i class="fas fa-envelope"></i></div>
+              <div><span class="cl-lbl">Email</span><span class="cl-val">mrsiva1952005@gmail.com</span></div>
+            </a>
+            <a href="https://github.com/sivasakthivp" target="_blank" rel="noopener" class="cl-item">
+              <div class="cl-ico"><i class="fab fa-github"></i></div>
+              <div><span class="cl-lbl">GitHub</span><span class="cl-val">github.com/sivasakthivp</span></div>
+            </a>
+            <a href="https://linkedin.com/in/vp-siva-sakthi-24112004-vp" target="_blank" rel="noopener" class="cl-item">
+              <div class="cl-ico"><i class="fab fa-linkedin-in"></i></div>
+              <div><span class="cl-lbl">LinkedIn</span><span class="cl-val">linkedin.com/in/vp-siva-sakthi-24112004-vp</span></div>
+            </a>
+            <div class="cl-item">
+              <div class="cl-ico"><i class="fas fa-map-marker-alt"></i></div>
+              <div><span class="cl-lbl">Location</span><span class="cl-val">Salem, Tamil Nadu, India</span></div>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form reveal" id="contact-form" onsubmit="handleSubmit(event)">
+          <div class="cf-row">
+            <div class="cf-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name" required autocomplete="off" />
+            </div>
+            <div class="cf-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="your@email.com" required autocomplete="off" />
+            </div>
+          </div>
+          <div class="cf-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Job opportunity / Project collaboration" required />
+          </div>
+          <div class="cf-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project or idea..." required></textarea>
+          </div>
+          <button type="submit" class="btn-primary btn-full">
+            <span id="btn-text">Send Message</span>
+            <i class="fas fa-paper-plane"></i>
+          </button>
+          <p class="form-status" id="form-status"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-logo"><span class="logo-dot"></span> Sivasakthi VP</div>
+      <p class="footer-copy">Designed &amp; engineered by <strong>Sivasakthi VP</strong> &nbsp;&middot;&nbsp; 2026</p>
+      <div class="footer-socials">
+        <a href="https://github.com/sivasakthivp" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com/in/vp-siva-sakthi-24112004-vp" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="mailto:mrsiva1952005@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
